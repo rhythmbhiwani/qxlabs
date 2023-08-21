@@ -16,7 +16,7 @@ function TargetAudience() {
           >
             <Image width={170} src={item.icon} alt="GameIcon" />
             <h4 className="text-xl md:text-3xl font-semibold mb-5">
-              Individuals
+              {item.title}
             </h4>
             {item.features.map((feature) => (
               <p className="text-lg md:text-xl my-2" key={feature}>

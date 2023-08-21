@@ -1,10 +1,9 @@
 import { NAV_ITEM_TYPE, navItems } from "@/utils/navItems";
-import Logo from "./Logo";
 import Link from "next/link";
-import NavDropdown from "./NavDropdown";
-import Button from "./Button";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
+import Button from "./Button";
+import Logo from "./Logo";
+import MobileNavDropdown from "./MobileNavDropdown";
 
 function MobileNavbar({
   showMobileMenu,
@@ -48,7 +47,7 @@ function MobileNavbar({
               </Link>
             )}
             {navItem.type === NAV_ITEM_TYPE.DROPDOWN && (
-              <NavDropdown navItem={navItem} />
+              <MobileNavDropdown navItem={navItem} />
             )}
           </div>
         ))}
