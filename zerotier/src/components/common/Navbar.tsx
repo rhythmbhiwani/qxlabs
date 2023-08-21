@@ -41,7 +41,7 @@ function Navbar() {
         {/* Auth Options */}
         <div className="flex flex-wrap items-center justify-start gap-5">
           <Link
-            className="text-xl font-light hover-brand-color hidden md:inline"
+            className="text-xl font-light hover-brand-color hidden lg:inline"
             href={"#"}
           >
             Login
@@ -51,7 +51,7 @@ function Navbar() {
             title="Sign Up"
           />
           <button
-            className="text-brand"
+            className="text-brand  lg:hidden"
             onClick={() => setShowMobileMenu(true)}
           >
             <GiHamburgerMenu size={25} />
