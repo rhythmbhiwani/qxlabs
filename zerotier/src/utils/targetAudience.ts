@@ -1,7 +1,7 @@
-import GameIcon from "../../public/assets/icons/game-icon.webp";
-import CloudIcon from "../../public/assets/icons/cloud-icon.webp";
-import DevopsIcon from "../../public/assets/icons/devops-icon.webp";
-import GlobalNetworkIcon from "../../public/assets/icons/global-network.webp";
+import GameIcon from "@public/assets/icons/game-icon.webp";
+import CloudIcon from "@public/assets/icons/cloud-icon.webp";
+import DevopsIcon from "@public/assets/icons/devops-icon.webp";
+import GlobalNetworkIcon from "@public/assets/icons/global-network.webp";
 
 export const targetAudience = [
   {

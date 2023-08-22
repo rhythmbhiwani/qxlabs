@@ -1,5 +1,5 @@
-import ContinuousIntegration from "../../public/assets/continuous-integration.webp";
-import ServiceProviders from "../../public/assets/sp-sales-graphs.webp";
+import ContinuousIntegration from "@public/assets/continuous-integration.webp";
+import ServiceProviders from "@public/assets/sp-sales-graphs.webp";
 
 export const ctaItems = [
   {

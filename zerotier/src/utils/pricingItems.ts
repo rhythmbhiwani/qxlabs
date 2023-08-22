@@ -1,6 +1,6 @@
-import WhiteIcon from "../../public/assets/icons/white-knockout-512x512-v2.webp";
-import BlueIcon from "../../public/assets/icons/blue-knockout-512x512-v2.webp";
-import OrangeIcon from "../../public/assets/icons/orange-knockout-512x512-v2.webp";
+import WhiteIcon from "@public/assets/icons/white-knockout-512x512-v2.webp";
+import BlueIcon from "@public/assets/icons/blue-knockout-512x512-v2.webp";
+import OrangeIcon from "@public/assets/icons/orange-knockout-512x512-v2.webp";
 
 export const pricingItems = [
   {

@@ -21,7 +21,7 @@ function Footer() {
             <nav className="list-none mb-4">
               {item.links.map((link) => (
                 <li key={link.title}>
-                  <Link href={link.href} className="hover:text-gray-800">
+                  <Link href={link.href} className="hover-brand-color">
                     {link.title}
                   </Link>
                 </li>
@@ -39,7 +39,7 @@ function Footer() {
           ))}
         </div>
       </div>
-      <div className="mx-auto py-4 flex flex-wrap flex-col justify-between sm:flex-row pb-10">
+      <div className="mx-auto py-4 flex flex-wrap justify-between sm:flex-row pb-10 pr-5">
         <p className="text-left">© 2023 ZeroTier, Inc. All rights reserved.</p>
         <span className="flex flex-row items-center justify-start space-x-2">
           <Link href={"#"}>Terms</Link>
