@@ -14,7 +14,7 @@ function Feature({ image, heading, description, invert = false }: Props) {
   return (
     <div
       className={classNames(
-        "flex flex-col items-center justify-center gap-10 py-20",
+        "flex flex-col items-center justify-center gap-10 py-20 max-w-7xl mx-auto",
         { "lg:flex-row": !invert },
         { "lg:flex-row-reverse": invert }
       )}
